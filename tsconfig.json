@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true
+    },
+    "extends": "@tsconfig/node-lts/tsconfig.json",
+    "exclude": ["./node_modules", "vitest.config.ts"]
+}
